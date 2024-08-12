@@ -12,7 +12,7 @@ export default function Home({users, setUsers}: PropsType) {
 
       <Table users={users} setUsers={setUsers}/>
 
-      <Link to="/profiles" className="text-blue-500">Go to Profiles Page</Link>
+      <Link to="/profiles" className="text-blue-500 text-sm">Go to Profiles Page</Link>
 
     </div>
   )

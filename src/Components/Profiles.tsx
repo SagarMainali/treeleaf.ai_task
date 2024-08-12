@@ -46,7 +46,7 @@ export default function Profiles({ users }: PropsType) {
                     </table>
             }
 
-            <Link to="/" className="text-blue-500">Go to Home Page</Link>
+            <Link to="/" className="text-blue-500 text-sm">Go to Home Page</Link>
 
         </div>
     )
